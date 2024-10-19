@@ -1,0 +1,13 @@
+FigureArrayTest.AddFigure 2 0.00290375
+FigureArrayTest.RemoveFigure 2 0.00246395
+FigureArrayTest.CalculateTotalArea 2 0.0027576
+PentagonTest.AreaCalculation 2 0.0025166
+PentagonTest.OutputOperator 2 0.00269925
+RhombusTest.AreaCalculation 2 0.00261215
+RhombusTest.OutputOperator 2 0.00247315
+TrapezoidTest.AreaCalculation 2 0.00238545
+TrapezoidTest.OutputOperator 2 0.0025045
+PentagonTest.CenterCalculation 1 0.0063003
+RhombusTest.CenterCalculation 1 0.005499
+TrapezoidTest.CenterCalculation 1 0.0047954
+---
