@@ -18,6 +18,12 @@ public:
     // Перегрузка оператора приведения к типу double (площадь)
     virtual operator double() const = 0;
 
+    // Виртуальный метод для клонирования объекта
+    virtual Figure* clone() const = 0;
+
+    // Оператор сравнения
+    virtual bool operator==(const Figure& other) const = 0;
+
     // Виртуальный деструктор
     virtual ~Figure() = default;
 

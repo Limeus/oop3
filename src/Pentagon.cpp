@@ -14,10 +14,8 @@ std::pair<double, double> Pentagon::center() const {
     return {x_center, y_center};
 }
 
-
 // Вычисление площади пятиугольника (разбиваем на треугольники)
 double Pentagon::area() const {
-    // Площадь через формулу площади многоугольника
     double area = 0.5 * std::abs(
             a.first * b.second + b.first * c.second + c.first * d.second + d.first * e.second + e.first * a.second
             - (b.first * a.second + c.first * b.second + d.first * c.second + e.first * d.second + a.first * e.second)

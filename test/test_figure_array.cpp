@@ -2,6 +2,7 @@
 #include "../include/Array.h"  // Подключаем файл с реализацией класса FigureArray
 #include "../include/Trapezoid.h"  // Подключаем файл с реализацией класса Trapezoid
 #include "../include/Rhombus.h"  // Подключаем файл с реализацией класса Rhombus
+#include "../include/Pentagon.h"  // Подключаем файл с реализацией класса Pentagon
 
 TEST(FigureArrayTest, AddFigure) {
     FigureArray array;
@@ -67,4 +68,49 @@ TEST(FigureArrayTest, CalculateTotalArea) {
     EXPECT_NEAR(totalArea, expectedTotalArea, 0.001);  // Проверяем, что общая площадь правильная
 }
 
+TEST(FigureArrayTest, DestructorClearsMemory) {
+    FigureArray* array = new FigureArray();
+    std::pair<double, double> a(0.0, 0.0);
+    std::pair<double, double> b(3.0, 0.0);
+    std::pair<double, double> c(4.0, 2.0);
+    std::pair<double, double> d(1.0, 2.0);
 
+    Figure* trapezoid = new Trapezoid(a, b, c, d);
+    array->addFigure(trapezoid);
+
+    EXPECT_EQ(array->size(), 1);  // Проверяем, что размер массива равен 1
+    delete array;  // Вызываем деструктор
+
+    // Проверяем, что память очищена (нельзя проверить напрямую, но можно ожидать, что не будет утечек)
+}
+
+// Тесты для операторов копирования и перемещения
+TEST(FigureArrayTest, CopyAssignmentOperator) {
+    FigureArray array1;
+    std::pair<double, double> a(0.0, 0.0);
+    std::pair<double, double> b(3.0, 0.0);
+    std::pair<double, double> c(4.0, 2.0);
+    std::pair<double, double> d(1.0, 2.0);
+    Figure* trapezoid = new Trapezoid(a, b, c, d);
+    array1.addFigure(trapezoid);
+
+    FigureArray array2;
+    array2 = array1;  // Оператор присваивания
+
+    EXPECT_EQ(array2.size(), 1);  // Проверяем, что размер скопированного массива равен 1
+}
+
+TEST(FigureArrayTest, MoveAssignmentOperator) {
+    FigureArray array1;
+    std::pair<double, double> a(0.0, 0.0);
+    std::pair<double, double> b(3.0, 0.0);
+    std::pair<double, double> c(4.0, 2.0);
+    std::pair<double, double> d(1.0, 2.0);
+    Figure* trapezoid = new Trapezoid(a, b, c, d);
+    array1.addFigure(trapezoid);
+
+    FigureArray array2 = std::move(array1);  // Оператор перемещения
+
+    EXPECT_EQ(array2.size(), 1);  // Проверяем, что размер перемещенного массива равен 1
+    EXPECT_EQ(array1.size(), 0);   // Проверяем, что исходный массив пуст
+}

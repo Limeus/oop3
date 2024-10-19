@@ -1,3 +1,573 @@
-Start testing: Oct 19 15:14 RTZ 2 (����)
+Start testing: Oct 19 17:54 RTZ 2 (����)
 ----------------------------------------------------------
-End testing: Oct 19 15:14 RTZ 2 (����)
+1/21 Testing: FigureArrayTest.AddFigure
+1/21 Test: FigureArrayTest.AddFigure
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.AddFigure" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"FigureArrayTest.AddFigure" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.AddFigure
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.AddFigure
+[       OK ] FigureArrayTest.AddFigure (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.AddFigure" end time: Oct 19 17:54 RTZ 2 (����)
+"FigureArrayTest.AddFigure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/21 Testing: FigureArrayTest.RemoveFigure
+2/21 Test: FigureArrayTest.RemoveFigure
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.RemoveFigure" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"FigureArrayTest.RemoveFigure" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.RemoveFigure
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.RemoveFigure
+[       OK ] FigureArrayTest.RemoveFigure (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.RemoveFigure" end time: Oct 19 17:54 RTZ 2 (����)
+"FigureArrayTest.RemoveFigure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/21 Testing: FigureArrayTest.CalculateTotalArea
+3/21 Test: FigureArrayTest.CalculateTotalArea
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.CalculateTotalArea" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"FigureArrayTest.CalculateTotalArea" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.CalculateTotalArea
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.CalculateTotalArea
+Calculating total area...
+Expected Total Area: 18.3693
+Calculated Total Area: 18.3693
+[       OK ] FigureArrayTest.CalculateTotalArea (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.CalculateTotalArea" end time: Oct 19 17:54 RTZ 2 (����)
+"FigureArrayTest.CalculateTotalArea" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/21 Testing: FigureArrayTest.DestructorClearsMemory
+4/21 Test: FigureArrayTest.DestructorClearsMemory
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.DestructorClearsMemory" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"FigureArrayTest.DestructorClearsMemory" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.DestructorClearsMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.DestructorClearsMemory
+[       OK ] FigureArrayTest.DestructorClearsMemory (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.DestructorClearsMemory" end time: Oct 19 17:54 RTZ 2 (����)
+"FigureArrayTest.DestructorClearsMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/21 Testing: FigureArrayTest.CopyAssignmentOperator
+5/21 Test: FigureArrayTest.CopyAssignmentOperator
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.CopyAssignmentOperator" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"FigureArrayTest.CopyAssignmentOperator" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.CopyAssignmentOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.CopyAssignmentOperator
+[       OK ] FigureArrayTest.CopyAssignmentOperator (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.CopyAssignmentOperator" end time: Oct 19 17:54 RTZ 2 (����)
+"FigureArrayTest.CopyAssignmentOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/21 Testing: FigureArrayTest.MoveAssignmentOperator
+6/21 Test: FigureArrayTest.MoveAssignmentOperator
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.MoveAssignmentOperator" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"FigureArrayTest.MoveAssignmentOperator" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.MoveAssignmentOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.MoveAssignmentOperator
+[       OK ] FigureArrayTest.MoveAssignmentOperator (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.MoveAssignmentOperator" end time: Oct 19 17:54 RTZ 2 (����)
+"FigureArrayTest.MoveAssignmentOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/21 Testing: PentagonTest.AreaCalculation
+7/21 Test: PentagonTest.AreaCalculation
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=PentagonTest.AreaCalculation" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"PentagonTest.AreaCalculation" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PentagonTest.AreaCalculation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PentagonTest
+[ RUN      ] PentagonTest.AreaCalculation
+[       OK ] PentagonTest.AreaCalculation (0 ms)
+[----------] 1 test from PentagonTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PentagonTest.AreaCalculation" end time: Oct 19 17:54 RTZ 2 (����)
+"PentagonTest.AreaCalculation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/21 Testing: PentagonTest.OutputOperator
+8/21 Test: PentagonTest.OutputOperator
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=PentagonTest.OutputOperator" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"PentagonTest.OutputOperator" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PentagonTest.OutputOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PentagonTest
+[ RUN      ] PentagonTest.OutputOperator
+[       OK ] PentagonTest.OutputOperator (0 ms)
+[----------] 1 test from PentagonTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PentagonTest.OutputOperator" end time: Oct 19 17:54 RTZ 2 (����)
+"PentagonTest.OutputOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/21 Testing: PentagonTest.CenterCalculation
+9/21 Test: PentagonTest.CenterCalculation
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=PentagonTest.CenterCalculation" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"PentagonTest.CenterCalculation" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PentagonTest.CenterCalculation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PentagonTest
+[ RUN      ] PentagonTest.CenterCalculation
+[       OK ] PentagonTest.CenterCalculation (0 ms)
+[----------] 1 test from PentagonTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PentagonTest.CenterCalculation" end time: Oct 19 17:54 RTZ 2 (����)
+"PentagonTest.CenterCalculation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/21 Testing: PentagonTest.CopyConstructor
+10/21 Test: PentagonTest.CopyConstructor
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=PentagonTest.CopyConstructor" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"PentagonTest.CopyConstructor" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PentagonTest.CopyConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PentagonTest
+[ RUN      ] PentagonTest.CopyConstructor
+[       OK ] PentagonTest.CopyConstructor (0 ms)
+[----------] 1 test from PentagonTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PentagonTest.CopyConstructor" end time: Oct 19 17:54 RTZ 2 (����)
+"PentagonTest.CopyConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/21 Testing: PentagonTest.MoveConstructor
+11/21 Test: PentagonTest.MoveConstructor
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=PentagonTest.MoveConstructor" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"PentagonTest.MoveConstructor" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PentagonTest.MoveConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PentagonTest
+[ RUN      ] PentagonTest.MoveConstructor
+[       OK ] PentagonTest.MoveConstructor (0 ms)
+[----------] 1 test from PentagonTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PentagonTest.MoveConstructor" end time: Oct 19 17:54 RTZ 2 (����)
+"PentagonTest.MoveConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/21 Testing: RhombusTest.AreaCalculation
+12/21 Test: RhombusTest.AreaCalculation
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=RhombusTest.AreaCalculation" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"RhombusTest.AreaCalculation" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RhombusTest.AreaCalculation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RhombusTest
+[ RUN      ] RhombusTest.AreaCalculation
+[       OK ] RhombusTest.AreaCalculation (0 ms)
+[----------] 1 test from RhombusTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RhombusTest.AreaCalculation" end time: Oct 19 17:54 RTZ 2 (����)
+"RhombusTest.AreaCalculation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/21 Testing: RhombusTest.OutputOperator
+13/21 Test: RhombusTest.OutputOperator
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=RhombusTest.OutputOperator" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"RhombusTest.OutputOperator" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RhombusTest.OutputOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RhombusTest
+[ RUN      ] RhombusTest.OutputOperator
+[       OK ] RhombusTest.OutputOperator (0 ms)
+[----------] 1 test from RhombusTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RhombusTest.OutputOperator" end time: Oct 19 17:54 RTZ 2 (����)
+"RhombusTest.OutputOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/21 Testing: RhombusTest.CenterCalculation
+14/21 Test: RhombusTest.CenterCalculation
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=RhombusTest.CenterCalculation" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"RhombusTest.CenterCalculation" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RhombusTest.CenterCalculation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RhombusTest
+[ RUN      ] RhombusTest.CenterCalculation
+[       OK ] RhombusTest.CenterCalculation (0 ms)
+[----------] 1 test from RhombusTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RhombusTest.CenterCalculation" end time: Oct 19 17:54 RTZ 2 (����)
+"RhombusTest.CenterCalculation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/21 Testing: RhombusTest.CopyConstructor
+15/21 Test: RhombusTest.CopyConstructor
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=RhombusTest.CopyConstructor" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"RhombusTest.CopyConstructor" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RhombusTest.CopyConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RhombusTest
+[ RUN      ] RhombusTest.CopyConstructor
+[       OK ] RhombusTest.CopyConstructor (0 ms)
+[----------] 1 test from RhombusTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RhombusTest.CopyConstructor" end time: Oct 19 17:54 RTZ 2 (����)
+"RhombusTest.CopyConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/21 Testing: RhombusTest.MoveConstructor
+16/21 Test: RhombusTest.MoveConstructor
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=RhombusTest.MoveConstructor" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"RhombusTest.MoveConstructor" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RhombusTest.MoveConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RhombusTest
+[ RUN      ] RhombusTest.MoveConstructor
+[       OK ] RhombusTest.MoveConstructor (0 ms)
+[----------] 1 test from RhombusTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RhombusTest.MoveConstructor" end time: Oct 19 17:54 RTZ 2 (����)
+"RhombusTest.MoveConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/21 Testing: TrapezoidTest.AreaCalculation
+17/21 Test: TrapezoidTest.AreaCalculation
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=TrapezoidTest.AreaCalculation" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"TrapezoidTest.AreaCalculation" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TrapezoidTest.AreaCalculation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrapezoidTest
+[ RUN      ] TrapezoidTest.AreaCalculation
+[       OK ] TrapezoidTest.AreaCalculation (0 ms)
+[----------] 1 test from TrapezoidTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TrapezoidTest.AreaCalculation" end time: Oct 19 17:54 RTZ 2 (����)
+"TrapezoidTest.AreaCalculation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/21 Testing: TrapezoidTest.OutputOperator
+18/21 Test: TrapezoidTest.OutputOperator
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=TrapezoidTest.OutputOperator" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"TrapezoidTest.OutputOperator" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TrapezoidTest.OutputOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrapezoidTest
+[ RUN      ] TrapezoidTest.OutputOperator
+[       OK ] TrapezoidTest.OutputOperator (0 ms)
+[----------] 1 test from TrapezoidTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TrapezoidTest.OutputOperator" end time: Oct 19 17:54 RTZ 2 (����)
+"TrapezoidTest.OutputOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/21 Testing: TrapezoidTest.CenterCalculation
+19/21 Test: TrapezoidTest.CenterCalculation
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=TrapezoidTest.CenterCalculation" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"TrapezoidTest.CenterCalculation" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TrapezoidTest.CenterCalculation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrapezoidTest
+[ RUN      ] TrapezoidTest.CenterCalculation
+[       OK ] TrapezoidTest.CenterCalculation (0 ms)
+[----------] 1 test from TrapezoidTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TrapezoidTest.CenterCalculation" end time: Oct 19 17:54 RTZ 2 (����)
+"TrapezoidTest.CenterCalculation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/21 Testing: TrapezoidTest.CopyConstructor
+20/21 Test: TrapezoidTest.CopyConstructor
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=TrapezoidTest.CopyConstructor" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"TrapezoidTest.CopyConstructor" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TrapezoidTest.CopyConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrapezoidTest
+[ RUN      ] TrapezoidTest.CopyConstructor
+[       OK ] TrapezoidTest.CopyConstructor (0 ms)
+[----------] 1 test from TrapezoidTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TrapezoidTest.CopyConstructor" end time: Oct 19 17:54 RTZ 2 (����)
+"TrapezoidTest.CopyConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/21 Testing: TrapezoidTest.MoveConstructor
+21/21 Test: TrapezoidTest.MoveConstructor
+Command: "C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug/lab3_tests.exe" "--gtest_filter=TrapezoidTest.MoveConstructor" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Валентин/CLionProjects/lab3/cmake-build-debug
+"TrapezoidTest.MoveConstructor" start time: Oct 19 17:54 RTZ 2 (����)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Валентин\CLionProjects\lab3\cmake-build-debug\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TrapezoidTest.MoveConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrapezoidTest
+[ RUN      ] TrapezoidTest.MoveConstructor
+[       OK ] TrapezoidTest.MoveConstructor (0 ms)
+[----------] 1 test from TrapezoidTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TrapezoidTest.MoveConstructor" end time: Oct 19 17:54 RTZ 2 (����)
+"TrapezoidTest.MoveConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 19 17:54 RTZ 2 (����)
